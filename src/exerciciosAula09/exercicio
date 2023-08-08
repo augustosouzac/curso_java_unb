@@ -1,0 +1,24 @@
+Exercício 1:
+Encontre no sistema SIG exemplo de utilização do design pattern Factory
+***
+DAOFactory
+
+Exercício 2:
+Explique como está implementado o Padrão DAO do projeto SIG. Quais são as interfaces, classes abstratas e concretas?
+Interface = GenericDAO
+Implementações = GenericDAOImpl ou qualquerCoisaDAOImpl
+
+
+Exercício 3:
+Como é criado uma instância de um DAO?
+EventoDao dao = null;
+dao = DAOFactory.getInstance().getDAO(EventoDao.class);
+temp = dao.findEventosDaAgendaNoPeriodo(idAgenda, dataInicio, dataFim, statusEventosCarregaveis);
+
+
+Exercício 4:
+Qual a diferença de criação dos DAOs nos sistemas SIGPRH e SIGAA, com relação ao SIPAC.
+
+
+Exercício 5:
+Na sua opinião, porque foi feita a alteração mencionada no exercício 4?

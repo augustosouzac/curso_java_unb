@@ -1,0 +1,58 @@
+Design Patterns
+Questão 1:
+Qual é o propósito do padrão de projeto MVC?
+a) Separar a aplicação em três camadas distintas: modelo, visualização e controle.
+
+==================================================================================
+b) Aumentar a eficiência do código-fonte, tornando-o mais rápido e escalável.
+==================================================================================
+
+c) Facilitar a comunicação entre o cliente e o servidor em uma arquitetura de rede.
+d) Garantir a segurança dos dados transmitidos entre o cliente e o servidor.
+
+
+Questão 2:
+Quais são os componentes principais do padrão MVC?
+a) Modelo, Visão e Classe.
+b) Componente, Classe e Visualização.
+
+==================================================================================
+c) Modelo, Visualização e Controlador.
+==================================================================================
+
+d) Classe, Componente e Controlador.
+
+Questão 3:
+Qual é o objetivo principal do padrão DAO?
+a) Definir a estrutura de uma tabela em um banco de dados relacional.
+
+==================================================================================
+b) Separar a lógica de acesso aos dados da lógica de negócio da aplicação.
+==================================================================================
+
+c) Criar interfaces gráficas para interação do usuário com a aplicação.
+d) Gerenciar a comunicação entre diferentes camadas de uma aplicação.
+
+Questão 4:
+Quais são as principais vantagens do uso do padrão DAO?
+==================================================================================
+a) Redução do acoplamento entre as camadas de uma aplicação.
+==================================================================================
+
+
+b) Melhora no desempenho e escalabilidade do sistema.
+c) Facilita a comunicação com APIs externas.
+d) Aumenta a segurança dos dados armazenados na aplicação.
+
+
+Questão 5:
+O Sistema SIG é desenvolvido utilizando arquitetura em camadas, baseado nisso responda:
+a) Quais são as camadas do SIG (SIPAC / SIGRH / SIGAA) e as responsabilidades de
+cada camada.
+Apresentação
+Negócio 
+
+b) Dê exemplo de onde a arquitetura de camadas pode ter sido corrompida nesses
+sistema
+
+Alguns ManagedBeans chamam diretamente as DAOs.
