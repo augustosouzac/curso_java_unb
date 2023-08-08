@@ -11,7 +11,7 @@ public class PrimeiroPrograma {
 		} else if (x == 2) {
 			dia = "segunda";
 		} else if (x == 3) {
-			dia = "terÁa";
+			dia = "ter√ßa";
 		} else if (x == 4) {
 			dia = "quarta";
 		} else if (x == 5) {
@@ -21,7 +21,7 @@ public class PrimeiroPrograma {
 		} else if (x == 7) {
 			dia = "sabasdo";
 		} else {
-			dia = "valor inv·lido";
+			dia = "valor inv√°lido";
 		}
 		System.out.println("Dia da semana:" + dia);
 		sc.close();
